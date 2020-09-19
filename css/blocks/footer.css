@@ -1,0 +1,32 @@
+.footer {
+  height: 126px;
+}
+
+.footer-main {
+  position: relative;
+}
+
+.footer__container::before {
+  position: absolute;
+  top: 0;
+  display: block;
+  content: "";
+  width: 1140px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer .logo {
+  margin-right: 66px;
+}

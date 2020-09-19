@@ -1,0 +1,91 @@
+.offers {
+  width: 100%;
+  margin-bottom: 118px;
+}
+
+.offers__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/3 - 31px);
+  margin-right: 31px;
+  background: #fff;
+  border-radius: 5px;
+  border: 7px solid #fff;
+  color: #666;
+  padding: 28px 44px 45px 20px;
+  transition: 0.3s ease-in;
+  margin-bottom: 40px;
+}
+
+.offer:last-child {
+  margin-right: 0;
+}
+
+.offer:hover,
+.offer--active {
+  border-color: #ccc;
+}
+
+.offer__header {
+  margin-bottom: 36px;
+}
+
+.offer__icon {
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+}
+
+.offer__icon-pic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.offer__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.offer__text {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.offer__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 39px;
+}
+
+.offer__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.offer__desc {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.offer .btn {
+  transition: 0.3s ease-in;
+}
+
+.offer .btn:hover {
+  color: #fff;
+  background: #ff3900;
+}

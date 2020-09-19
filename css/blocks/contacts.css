@@ -1,0 +1,24 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-style: normal;
+}
+
+.contacts__phone {
+  font-size: 26px;
+}
+
+.contacts__text {
+  font-size: 11px;
+  color: #9a9a9a;
+}
+
+.dropdown__title {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown__title {
+  color: #ff5400;
+}
