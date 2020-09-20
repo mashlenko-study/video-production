@@ -1,0 +1,18 @@
+.topline {
+  min-height: 416px;
+  display: flex;
+  flex-direction: column;
+  background: url("../../img/bg/top-line.jpg") center center/ cover no-repeat;
+}
+
+.topline__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topline__title {
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+}

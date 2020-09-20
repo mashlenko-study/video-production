@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.paginator--textcolor--black {
+  color: #000;
+}
+
 .paginator__list {
   display: flex;
   align-items: center;
@@ -25,5 +29,6 @@
 
 .paginator__item--active .paginator__link,
 .paginator__item:hover .paginator__link {
+  color: #fff;
   background-color: #ff5300;
 }

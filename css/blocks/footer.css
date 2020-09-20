@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.footer__container::before {
+.footer-main .footer__container::before {
   position: absolute;
   top: 0;
   display: block;

@@ -78,8 +78,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn--color--white {
   background: #fff;
-  color: #ff5400;
+  color: #ff5500;
+  border-color: #ff5500;
+  transition: 0.3s ease-in;
 
+}
+
+.btn--color--white:hover {
+  color: #fff;
+  background: #ff5500;
 }
 
 .font--bold {
